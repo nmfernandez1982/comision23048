@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Clase04</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">      
+    </head>
+    <body>
+
+    <form action="#alumnos"  >    
+        <fieldset>
+            <legend>Datos del Alumno</legend>
+
+            <label for="nombre" >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Aqui su nombre....." required >
+            <br>
+            <br>
+            <label for="apellido" >Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Aqui su Apellido....." maxlength="5" minlength="2" required >
+            <br>
+            <br>
+            <label for="fnac">Fecha de Nac:</label>
+            <input type="datetime-local" placeholder="Aqui su Fecha e Nac" >
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="" name="" value="41" readonly   >
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="" name="" value="41" disabled  >
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="" name="" max="99" min="18"    >
+            <br>
+            <br>
+            <label for="pass" >Contraseña:</label>
+            <input type="password" id="pass" name="pass" placeholder="Aqui su Contraseña....." required pattern="" >
+            <br>
+            <br>
+            <label for="comentario" >Comentario</label>
+            <textarea placeholder="Aqui su comentario" id="" name="">
+
+            </textarea>
+            <br>
+            <br>
+            <label for="color">Color:</label>
+            <input type="color" id="" name=""    >
+            <br>
+            <br>
+            <label for="archivo">Archivo:</label>
+            <input type="file" id="" name="">
+
+            <br>
+            <br>
+            <label for="oculto">oculto:</label>
+            <input type="hidden" id="" name="">
+
+            <br>
+            <br>
+            <label for="">Lenguaje:</label>
+            <select>
+                <option value="1">Java</option>
+                <option value="2">PHP</option>
+                <option value="3">Node.js</option>
+            </select>
+
+
+
+
+        </fieldset>
+
+        <input type="submit" value="enviar">
+    </form>    
+        
+    
+    </body>
+</html>
