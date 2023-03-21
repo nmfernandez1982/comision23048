@@ -1,0 +1,92 @@
+p
+{
+    color: red ;
+}
+
+.textoAzul
+{
+    color: blue;
+}
+
+
+#textoRosa
+{
+    color: pink;
+}
+
+
+div
+{
+    width: 80%;
+    color: white;
+    margin: auto;
+}
+
+#div1
+{
+background-color: red;
+height: 50px;
+
+}
+
+#div2
+{
+background-color: blueviolet;
+height: 70px;
+}
+
+#div3
+{
+background-color: brown;
+height: 90px;
+width: 40%;
+}
+
+
+
+div p span
+{
+    background-color: darkgoldenrod;
+}
+
+span
+{
+    background-color: blue ;
+}
+
+/*
+input[type=text]
+{
+color: red;
+background-color: aqua;
+}
+*/
+input[name=usuario]
+{
+color: red;
+background-color: aqua;
+}
+
+h1,h2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;    
+    text-align: center;
+    font-style: italic;    
+}
+
+h1
+{
+   
+    font-size: 20px;
+}
+
+
+h2
+{
+   
+    font-size: 15px;
+}
+
+
+
