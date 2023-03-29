@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+div
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.caja1
+{
+   /* margin: auto;*/
+  
+}
+
+.caja2
+{
+   /* border: 5px solid blue ;*/   
+   border-top: 5px solid blue;
+   border-bottom: 10px double blue;
+   border-left: 15px dotted blue;
+   border-right: 3px dashed yellow;     
+   box-sizing: border-box;
+}
+
+.caja3
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.caja4
+{
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    
+}
+
+
+.menu
+{
+    background-color: gray;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    list-style-type: none;    
+}
+
+.menu li
+{
+    display: inline;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.menu li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+img
+{
+    display: block;
+}
