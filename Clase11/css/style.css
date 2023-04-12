@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+div
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+
+
+.contenedor-flex
+{
+width: 80% ;
+height: 200px ;
+background-color: grey;
+margin: auto;
+margin-top: 10px;
+display: flex;
+
+
+justify-content: center;
+justify-content: left;
+justify-content: right;
+justify-content: flex-start;
+justify-content: flex-end;
+justify-content: space-around;
+justify-content: space-between;
+justify-content: space-evenly;
+
+
+align-items: flex-start;
+align-items: flex-end;
+align-items: baseline;
+align-items: center;
+
+flex-direction: row-reverse;
+}
+
+#tres
+{
+    background-image: linear-gradient(blue,violet);
+    align-self: flex-start;
+}
+

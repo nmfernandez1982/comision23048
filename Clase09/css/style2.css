@@ -1,0 +1,38 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    font-size: 8px;
+}
+
+.contenedor
+{
+    background-color: grey;
+    width: 90%;
+    border-radius: 10px;    
+}
+
+.contenedor h1
+{
+    font-size: 1em;
+}
+
+.contenedor input
+{
+    font-size: 1em;
+    display: inline-block;
+    border:none;
+    background-color: red;
+    color: wheat;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+
+}
+

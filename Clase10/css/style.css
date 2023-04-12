@@ -1,0 +1,43 @@
+div
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: red 5px dashed;
+}
+
+
+/*
+div+p
+{
+    color: red;
+}
+
+
+div~p
+{
+    color:red;
+}
+
+
+div > p
+{
+    color:red;
+}
+*/
+
+.rojo
+{
+    color:red;
+}
+
+.fuente
+{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.TextoSombra
+{
+    text-shadow: 2px 2px grey;
+}

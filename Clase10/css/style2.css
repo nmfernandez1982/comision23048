@@ -1,0 +1,53 @@
+
+body
+{
+    background-color: lightgray;
+}
+
+#cuadroRojo
+{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#cuadroRojo:hover
+{
+    background-color: white;
+    color: red;
+}
+
+
+.nombre
+{
+    background-color: green;    
+}
+.nombre:focus
+{
+    background-color: lightblue;    
+}
+
+
+p:lang(es)
+{
+    color: red;
+}
+
+span:first-child
+{
+    color: green;
+}
+
+span:last-child
+{
+    color: green;
+}
+
+a:active
+{
+    color: orangered;
+}
+

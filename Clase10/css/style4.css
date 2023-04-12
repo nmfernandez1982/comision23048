@@ -1,0 +1,57 @@
+.prueba
+{
+    animation-duration: 3s;
+    animation-name: animacion1;
+    animation-iteration-count: 4;
+}
+
+/*
+@keyframes animacion1
+{
+    from
+    {
+      width: 100px;
+      height: 100px;  
+      color: blue;
+      background-color: red;
+    }
+    to
+    {
+        width: 200px;
+        height: 200px;
+        color: green;
+        background-color: yellow;
+    }
+}
+*/
+
+@keyframes animacion1
+{
+   0%{
+      width: 100px;
+      height: 100px;  
+      color: blue;
+      background-color: red;
+    }
+    50%
+    {
+        width: 200px;
+        height: 200px;
+        color: green;
+        background-color: yellow;
+    }
+    75%
+    {
+        width: 300px;
+        height: 300px;
+        color: orangered;
+        background-color: black;
+    }
+    
+}
+
+/*
+10%{}
+20%{}
+30%{}
+*/

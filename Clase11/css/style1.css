@@ -1,0 +1,83 @@
+.contenedor
+{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#uno,#dos,#tres
+{
+    width: 320px;
+    height: 480px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#dos
+{
+    align-self: flex-start;
+}
+
+img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: red solid 2px;
+}
+
+p
+{
+    padding: 10px;
+    text-align: justify;
+}
+
+.botonesVerdes
+{
+    background-color: green;
+    border: none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    cursor:pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 15px 32px;
+    margin-left: 10px;
+}
+
+.botonesVerdes:hover
+{
+    background-color: lightgreen;
+    color:red;
+}
+
+
+.botonesRojos
+{
+    background-color: red;
+    border: none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    cursor:pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 15px 32px;
+    margin-left: 10px;
+}
+
+.botonesRojos:hover
+{
+    background-color: lightsalmon;
+
+}
