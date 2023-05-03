@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    </head>
+    <body>
+
+        <script>
+
+            var dia=30;
+
+            switch(dia)
+            {
+                case 0:
+                    console.log("Domingo");
+                    break;
+                case 1:
+                    console.log("Lunes");
+                    break;
+                case 2:
+                    console.log("Martes");
+                    break;
+                case 3:
+                    console.log("Miercoles");
+                    break;
+                case 4:
+                    console.log("Jueves");
+                    break;
+                case 5:
+                    console.log("Viernes");
+                    break;
+                case 6:
+                    console.log("Sabado");
+                    break;
+                default:
+                    console.log("Otro Resultado");
+                    break;
+            }
+
+
+            //Bucles.
+
+            //while
+            var x =10;
+
+            //Si no se cumple la condificion no se ejecuta
+            while(x<5)
+            {
+                console.log("El valor de la x en WHILE es: "+x);                
+                x++; //x=x+1;
+            }
+         
+            //se ejecuta al menos una vez.
+            do{
+                console.log("El valor de la x en DO WHILE es: "+x); 
+                x++;
+            }while(x<5);
+
+
+            //for
+            
+            var numeros=[2,45,1,788,23,11,5,9,03,4,2,5,6,12,55,3,7,889];
+                            
+            for(y=0;y<numeros.length;y++)
+            {
+                console.log("El valor den array en la pos. ["+y+"]:"+numeros[y]);
+            }
+
+            console.log("--------");
+            console.log(numeros);
+            console.log("--------");
+            console.table(numeros);
+            console.log("--------");
+
+            //for each
+            numeros.forEach(numero =>  {
+                console.log("Valor:"+numero);
+            });
+
+
+            
+            
+
+
+
+
+            
+        </script>    
+    </body>
+</html>

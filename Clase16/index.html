@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+        //funcion parse
+    numero=parseInt(75.5);
+    console.log("El numero es:"+numero);
+
+    numero=parseInt("40 21 88");
+    console.log("El numero es:"+numero);
+
+    numero=parseInt("41 Años");
+    console.log("El numero es:"+numero);
+
+     numero=parseInt("Años 41");
+    console.log("El numero es:"+numero);
+
+    numero=parseFloat("99.9 porciento");
+    console.log("El numero es:"+numero);
+
+
+    var notas=[10,5,1,2,8,10,2,9,3,5,1];
+            //  0 1 2 3 4  5 6 7 8 9 10
+
+    console.log(notas[7]);
+    console.log("El valor es :"+notas[0]);
+
+    console.log(notas);
+    console.table(notas);
+
+    console.log(notas[17]);
+
+    var apellidos=["Fernandez","Rey","Gomez","Alvarez"];
+
+    var deTodo=["Fernandez",12,true,false,1599.99,"Rey"];
+          //       0        1  2    3      4        5
+
+    console.table(deTodo)
+
+    cant=notas.length;
+    console.log("La cantidad de elementos es:"+cant);
+
+    posicion=3;
+    suma=notas[posicion]+notas[3];
+    console.log("LA suma es: "+suma);
+   
+    console.log("--------------------------------");
+
+    //if(expresion) --> la tenemos que armar nosotros 
+
+    /*
+    > mayor que
+    < menor que
+    >= mayor o igual que
+    <= menor o igual que
+    =  --> operador de asignacion...(No va aca).
+    == igualdad de contenido.
+    === igualdad de contenido y tipo
+    !=  distinto de
+    !== 
+    */
+
+    nota=0;
+    conducta=0;
+
+    /*
+    && Y 
+    || O
+    */
+
+    if(nota>=7&&conducta>=7)
+    {
+        // respuesta por true (si)
+        console.log("Respuesta por si");
+    }
+    else
+    {
+         // respuesta por false (no)
+         console.log("Respuesta por no");
+    }
+
+    /*
+    T & T = T
+    F & T = F
+    T & F = F
+    F & F = F
+    */
+
+    if(nota>=7||conducta>=7)
+    {
+        // respuesta por true (si)
+        console.log("Respuesta por si");
+    }
+    else
+    {
+         // respuesta por false (no)
+         console.log("Respuesta por no");
+    }
+
+    /*
+    T o T = T
+    T o F = T
+    F o T = T
+    F o F = F
+    */
+
+
+    nota=2;
+
+   if(nota>=7)
+   {
+    console.log("Aprobado");
+   }
+   else if(nota>=4&&nota<7)
+   {
+    console.log("Recuperatorio");
+   }
+   else if(nota<4) 
+   {
+    console.log("Desaprobado");
+   }
+
+    </script>    
+</body>
+</html>
