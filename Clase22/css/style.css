@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+
+
+
+#div1
+{
+    width: 100%;
+    height: 70px;  
+    color:white;
+    text-align: center; 
+    font-size: 40px;
+}
+
+.original
+{
+    background-color: red;  
+}
+
+.nueva
+{
+    background-color: blue;
+}

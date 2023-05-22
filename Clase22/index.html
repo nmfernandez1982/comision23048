@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="div1" class="original">
+            Cambiar Clase
+        </div>
+
+        <button onclick="cambiar();" >Cambiar Clase</button>
+
+        <script>
+            function cambiar()
+            {
+                x=document.getElementById("div1");
+                x.classList.add("nueva");
+            }
+        </script>
+
+    
+    </body>
+</html>
